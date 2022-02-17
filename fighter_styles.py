@@ -418,9 +418,9 @@ st.sidebar.write('---')
 st.sidebar.write("""This project was built by David Wismer. Find me on [LinkedIn](https://www.linkedin.com/in/david-wismer-0a940656/).""")
 
 st.sidebar.write('---')
-st.sidebar.write("""This app uses data from [UFCStats.com](https://www.ufcstats.com). The project required web scraping, database 
-storage and querying, feature engineering, clustering algorithms, data visualizaiton, and the creation of this web application. For 
-a full project write-up, [read my blog post on Medium](https://www.linkedin.com/in/david-wismer-0a940656/).""").
+st.sidebar.write('This app uses data from [UFCStats.com](https://www.ufcstats.com). The project required web scraping, database ' +
+                 'storage and querying, feature engineering, clustering algorithms, data visualizaiton, and the creation of this web ' +
+                 'application. For a full project write-up, [read my blog post on Medium](https://www.linkedin.com/in/david-wismer-0a940656/).').
 
 st.sidebar.write('---')
 st.sidebar.write("""For faster dashboard performance, download Tableau Public. You can find the entire workbook on my [Tableau profile](https://public.tableau.com/app/profile/david.wismer).""")
