@@ -456,7 +456,7 @@ elif pages == 'Fighter Style Descriptions':
     
     make_title(pages, 'white')
     
-    col1_a, col2_a, col3_a =st.beta_columns([1, 0.1, 1])
+    col1_a, col2_a, col3_a =st.columns([1, 0.1, 1])
     
     with col1_a:
         styles = st.selectbox('',
@@ -472,7 +472,7 @@ elif pages == 'Fighter Style Descriptions':
                                'Tactician'
                               ))
     
-    col1_b, col2_b, col3_b =st.beta_columns([1, 0.1, 1])
+    col1_b, col2_b, col3_b =st.columns([1, 0.1, 1])
     
     with col1_b:
         make_subtitle('Style Example: ' + style_dict[styles]['style_rep_name'], 'white')
