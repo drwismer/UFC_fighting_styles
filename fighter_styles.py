@@ -422,8 +422,6 @@ st.sidebar.write("""Visit my [Github](https://github.com/drwismer) to see how th
 st.sidebar.write('---')
 st.sidebar.write("""Find the entire Tableau Public workbook on my [Tableau profile](https://public.tableau.com/app/profile/david.wismer).""")
 
-left, middle, right = st.sidebar.beta_columns([0.65, 3, 1])
-
 if pages == 'UFC Fighter Comparison':
     
     make_title(pages, 'white')
