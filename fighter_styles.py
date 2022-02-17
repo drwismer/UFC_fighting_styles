@@ -8,7 +8,6 @@ import pandas as pd
 import pickle
 
 
-
 # ----------------- Streamlit Formatting ----------------- #
 
 # Wide layout
@@ -402,6 +401,7 @@ style_dict = {'Chinny Grappler' : {'style_rep_name' : 'Chael Sonnen',
                             }
              }
     
+    
 # ----------------- Streamlit Page Construction ----------------- #
 
 pages = st.sidebar.selectbox('',
@@ -413,14 +413,20 @@ pages = st.sidebar.selectbox('',
                               'Box and Whisker Exploration',
                               'Histogram Exploration'
                              ))
+
 st.sidebar.write('---')
 st.sidebar.write("""This project was built by David Wismer. Find me on [LinkedIn](https://www.linkedin.com/in/david-wismer-0a940656/).""")
 
 st.sidebar.write('---')
-st.sidebar.write("""Visit my [Github](https://github.com/drwismer) to see how the app was built.""")
+st.sidebar.write("""This app uses data from [UFCStats.com](https://www.ufcstats.com). The project required web scraping, database 
+storage and querying, feature engineering, clustering algorithms, data visualizaiton, and the creation of this web application. For 
+a full project write-up, [read my blog post on Medium](https://www.linkedin.com/in/david-wismer-0a940656/).""").
 
 st.sidebar.write('---')
-st.sidebar.write("""Find the entire Tableau Public workbook on my [Tableau profile](https://public.tableau.com/app/profile/david.wismer).""")
+st.sidebar.write("""For faster dashboard performance, download Tableau Public. You can find the entire workbook on my [Tableau profile](https://public.tableau.com/app/profile/david.wismer).""")
+
+st.sidebar.write('---')
+st.sidebar.write("""Visit my [Github](https://github.com/drwismer) to see how the app was built.""")
 
 if pages == 'UFC Fighter Comparison':
     
